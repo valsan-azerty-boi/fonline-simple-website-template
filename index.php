@@ -122,10 +122,18 @@ if ($displayErrors == false)
             <li>Thanks to</li>
           </ul>
           <ul class="legals">
-            <li><a href="https://github.com/cvet">cvet</a></li>
-            <li><a href="https://github.com/rotators">rotators</a></li>
-            <li><a href="https://fodev.net/">fodev.net</a></li>
-            <li><a href="https://www.fonline-reloaded.net/">fonline-reloaded.net</a></li>
+            <li><a href="https://github.com/cvet" target="_blank">cvet</a></li>
+            <li><a href="https://github.com/rotators" target="_blank">rotators</a></li>
+            <li><a href="https://fodev.net/" target="_blank">fodev.net</a></li>
+            <li><a href="https://www.fonline-reloaded.net/" target="_blank">fonline-reloaded.net</a></li>
+          </ul>
+          <br />
+          <ul class="legals">
+            <li>Author</li>
+          </ul>
+          <ul class="legals">
+            <li><a href="https://github.com/valsan-azerty-boi/fonline-simple-website-template"
+                target="_blank">valsan-azerty-boi</a></li>
           </ul>
         </div>
         <div class="col-md-6 credit">
