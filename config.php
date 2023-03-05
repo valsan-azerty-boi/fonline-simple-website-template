@@ -1,7 +1,7 @@
 <?php
 
 // Your FOnline server name
-$falloutServerName = "YOURSERVERNAME";
+$falloutServerName = "FOTEMPLATE";
 
 // The game client download link
 $downloadClientLocationUri = "THEDOWNLOADLINK";
