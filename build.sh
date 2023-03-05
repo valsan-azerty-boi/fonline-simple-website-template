@@ -31,3 +31,6 @@ do
 done
 
 echo "Process complete." ;
+
+# Netlify - Build command: chmod +x build.sh && ./build.sh
+# Netlify - Publish directory: public_html/
