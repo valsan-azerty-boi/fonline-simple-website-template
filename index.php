@@ -12,18 +12,26 @@ if ($displayErrors == false)
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="<?php
+  echo $falloutServerName;
+  ?>">
+  <meta property="og:type" content="website" />
+  <meta name="title" content="<?php
+  echo $falloutServerName;
+  ?>" />
+  <meta name="author" content="valsan-azerty-boi" />
   <title>
     <?php
     echo $falloutServerName;
     ?> - FOnline
   </title>
-  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="css/flexslider.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/queries.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="manifest" href="manifest.json" />
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -45,23 +53,21 @@ if ($displayErrors == false)
               ?> - FOnline
             </h1>
             <p class="animated fadeInUp delay-05s">Fallout 2 online private server</p>
-
             <?php
             if ($pingServerFeatureIsActive == true) {
               echo '<p class="animated fadeInUp delay-1s">Status: ';
               try {
                 if (fsockopen($falloutServerAdress, $falloutServerPort, $errCode, $errStr, 1)) {
-                  echo '<img src="img/online.png" height="30" alt="Online" />';
+                  echo '<img src="img/status-online.png" height="30" alt="Online" />';
                 } else {
-                  echo '<img src="img/offline.png" height="30" alt="Offline" />';
+                  echo '<img src="img/status-offline.png" height="30" alt="Offline" />';
                 }
               } catch (Exception $e) {
-                echo '<img src="img/unknown.png" height="30" alt="Unknown" />';
+                echo '<img src="img/status-unknown.png" height="30" alt="Unknown" />';
               }
               echo '</p>';
             }
             ?>
-
           </div>
         </div>
         <div class="row">
