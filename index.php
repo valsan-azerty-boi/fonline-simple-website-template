@@ -31,6 +31,9 @@ if ($displayErrors == false)
   <link href="css/queries.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="img/icons-192.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icons-192.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icons-192.png" />
   <link rel="manifest" href="manifest.json" />
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
