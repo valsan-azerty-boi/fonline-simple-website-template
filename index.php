@@ -31,6 +31,7 @@ if ($displayErrors == false)
   <link href="css/queries.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="img/icons-192.png" />
   <link rel="apple-touch-icon" sizes="72x72" href="img/icons-192.png" />
   <link rel="apple-touch-icon" sizes="114x114" href="img/icons-192.png" />
